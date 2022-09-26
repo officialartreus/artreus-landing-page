@@ -1,0 +1,117 @@
+.mail h3 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #2f2f2f;
+}
+
+.footer_first {
+  margin: 3.5rem auto;
+}
+
+.link_left,
+.link_right {
+  flex: 0 0 50%;
+  margin-inline: 1.2rem;
+}
+
+.link_left h5,
+.link_right h5,
+.community h5 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2f2f2f;
+}
+
+.link_left a,
+.link_right a {
+  display: block;
+  margin-block: 1.2rem;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(47, 47, 47, 0.7);
+}
+
+.link_left a:hover,
+.link_right a:hover {
+  color: #5d50c6;
+}
+
+.c_links {
+  display: inline-block;
+  margin-inline: 0.3rem;
+  font-size: 1.4rem;
+  color: rgba(47, 47, 47, 0.7);
+  cursor: pointer;
+}
+
+.c_links:hover {
+  transform: scale(1.1);
+  color: #5d50c6;
+}
+
+.content {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #5d50c6;
+  margin-inline: 1rem;
+  text-align: center;
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .link_left,
+  .link_right {
+    margin: rem auto;
+  }
+
+  .footer_first,
+  .copyright {
+    margin: 1rem auto;
+  }
+
+  .footer_second {
+    display: block;
+    text-align: center !important;
+    margin-bottom: 0.6rem;
+  }
+
+  .mail,
+  .community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+
+  .community {
+    margin: 1.6rem auto;
+  }
+
+  .c_links {
+    display: inline;
+  }
+
+  .mail h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-block: 0.1rem;
+  }
+
+  .footer_links {
+    justify-content: center !important;
+    margin-block: 0.6rem;
+  }
+
+  .copyright {
+    display: initial;
+  }
+
+  .content {
+    font-size: 0.8rem;
+  }
+}

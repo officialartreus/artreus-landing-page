@@ -1,0 +1,90 @@
+.hero_form {
+  width: 55%;
+  margin: 1.6rem auto;
+  background-color: white;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.hero_form input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1.2rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.hero_form a {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #facd49;
+  color: #5d50c6;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.hero_form_purple {
+  background: #d9d9d9 !important;
+  border-radius: 0.3rem;
+  width: 100%;
+  margin: 1.6rem auto;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.hero_form_purple input {
+  background: transparent;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1.2rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.hero_form_purple a {
+  display: block;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: #5d50c6;
+  color: white;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .hero_form {
+    width: 100%;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  .hero_form input,
+  .hero_form_purple input {
+    border-radius: 0.4rem;
+    margin: 0.6rem auto;
+  }
+
+  .hero_form a,
+  .hero_form_purple a {
+    width: initial;
+    margin: 0.4rem auto;
+  }
+}

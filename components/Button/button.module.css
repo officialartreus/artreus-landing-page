@@ -1,0 +1,39 @@
+.rev_btn {
+  background-color: #5d50c6 !important;
+  border: none !important;
+}
+
+.cta_btn,
+.rev_btn {
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta_btn:hover {
+  background-color: #5d50c6;
+}
+
+.cta_btn a,
+.rev_btn a {
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.cta_btn i,
+.rev_btn i {
+  color: white;
+  font-size: 1rem;
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .cta_btn,
+  .rev_btn {
+    width: 80% !important;
+  }
+}

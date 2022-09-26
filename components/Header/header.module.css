@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  background-image: url("../images/hero_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 48rem;
+  position: relative;
+}
+
+.hero {
+  margin-block: 2.5rem;
+}
+
+.hero_text {
+  margin: 5rem auto;
+}
+
+.hero_text h5 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #facd49;
+}
+
+.hero_text h3 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .header {
+    height: 60rem;
+  }
+
+  .hero_text {
+    padding: 0.1rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero_text h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero h3 {
+    font-size: 1.8rem;
+  }
+}

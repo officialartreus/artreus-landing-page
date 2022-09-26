@@ -1,0 +1,98 @@
+.about_section {
+  margin: 4rem 0;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.imgbox img {
+  background-image: url("../images/about_shadow.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img_fluid {
+  width: 100%;
+}
+
+.textbox {
+  /* background-color: rgba(47, 47, 47, 0.1); */
+}
+
+.textbox h3 {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #5d50c6;
+}
+
+.textbox p {
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.upcoming h3 {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #5d50c6;
+}
+
+.volume {
+  width: 30%;
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  background: linear-gradient(
+    271.51deg,
+    rgba(92, 92, 95, 0.15) -5.78%,
+    rgba(194, 194, 194, 0.48) 106.8%
+  );
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 1.1rem;
+  animation: move 1.2s ease-in-out infinite;
+  transition: animation 0.3s ease-in-out;
+}
+
+@keyframes move {
+  0% {
+    top: 5%;
+  }
+
+  100% {
+    top: ;
+  }
+}
+
+.volume h3 {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.volume span {
+  font-family: "Titillium Web";
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .volume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+}

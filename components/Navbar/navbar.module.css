@@ -1,0 +1,165 @@
+.logo_img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.nav_wrapper {
+  padding-block: 1.4rem;
+}
+
+.nav__menu a {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  margin-inline: 0.8rem;
+}
+
+.nav__menu a:last-child {
+  background-color: #5d50c6;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem !important;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 4rem !important;
+}
+
+.nav__menu a:last-child:hover {
+  background-color: #5d50a9;
+  color: white;
+}
+
+.nav__menu a:hover {
+  color: #facd49;
+}
+
+.cta_btn a {
+  background-color: #facd49;
+  color: #5d50c6;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem !important;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.rev_btn a {
+  background-color: white;
+  color: #5d50c6;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 0.3rem !important;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+.mobile_menu i {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  margin-inline: 0.4rem;
+  cursor: pointer;
+}
+
+/* ==== Responsiveness */
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .logo {
+    width: 50%;
+    max-width: 40%;
+  }
+
+  .nav_wrapper {
+    background-color: #5d50c6;
+    padding: 1rem;
+    z-index: 10;
+  }
+
+  .nav__menu {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(93, 80, 198, 0.85) !important; */
+    background-color: white;
+    z-index: 10 !important;
+    border-radius: 0 0 0.4rem 0.4rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    display: none;
+    overflow: hidden;
+    padding: 1rem 0.4rem;
+  }
+
+  .cta_btn {
+    display: none;
+  }
+
+  .rev_btn {
+    display: none;
+  }
+
+  .nav__menu a {
+    display: block;
+    padding: 1rem 1.4rem;
+    margin-inline: 0;
+    cursor: pointer !important;
+    animation: mobile 0.2s;
+    transition: animation 1s ease-in-out;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .nav__menu a:last-child {
+    width: 100%;
+  }
+
+  @keyframes mobile {
+    0% {
+      padding-block: 0.8rem;
+    }
+
+    100% {
+      padding-block: 1rem;
+    }
+  }
+
+  .nav__menu a:hover,
+  .nav__menu a:active {
+    color: #facd49;
+  }
+
+  .mobile_menu {
+    display: block !important;
+  }
+
+  .active__menu {
+    display: block !important;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+} */
