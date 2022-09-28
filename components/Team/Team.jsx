@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "reactstrap";
 import styles from './team.module.css';
 import Product from "../Product/Product";
+import Slider from "./slider";
 
 
 
@@ -26,37 +27,40 @@ const Team = () => {
         }
 
     ];
-    
+
+
     return (
         <section className={`${styles.team_section} p-4`}>
             <Container>
-                
 
+
+                <div className={`${styles.team_head}`}>
+                    <div className="my-5">
+                        <h3>The Team</h3>
+                    </div>
+
+                    <Slider />
+
+                </div>
                 <Row>
-                    
+
                     <Col lg={6} md={12}>
-                        <div className={`${styles.team_head}`}>
-                            <div className="my-5">
-                                <h3>The Team</h3>
-                            </div>
-                           
-                         </div>
 
                     </Col>
 
-                    
+
                 </Row>
 
                 <Row>
-                        {
-                            PRODUCTS.map((item, i) => (
-                                <Product
+                    {
+                        PRODUCTS.map((item, i) => (
+                            <Product
                                 key={i}
                                 text={item.text}
                                 imageUrl={item.imageUrl}
                                 reduce={item.reduce}
-                                />
-                            ))
+                            />
+                        ))
                     }
 
                 </Row>

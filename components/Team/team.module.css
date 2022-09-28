@@ -4,8 +4,67 @@
   font-weight: 700;
   font-size: 2.5rem;
   color: #5d50c6;
+  text-align: center;
+}
+
+.team_no_slide {
+  display: none !important;
+}
+
+.teams_card {
+  padding: .5rem;
+  width: 100%;
+}
+
+.teams_card .team {
+  width: 100% !important;
+}
+
+.team {
+  width: 70% !important;
+  margin: 0 auto;
+}
+
+.team_img {
+  border-radius: 100% !important;
+}
+
+.team_text {
+  font-size: x-large;
+  text-align: center;
+}
+
+.team_name {
+  font-weight: 900;
+  text-align: center;
+}
+
+.team_name span {
+  font-weight: 500;
+  margin-left: .5rem;
+  font-size: large;
+}
+
+.team_detail {
+  font-weight: 500;
+  font-size: large;
+}
+
+.team_slider {
+  display: block !important;
 }
 
 /*  X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 991.98px) {
+
+@media (min-width: 991.98px) {
+  .team_slider {
+    display: none !important;
+  }
+
+  .team_no_slide {
+    display: flex !important;
+  }
+
 }
+
+@media (max-width: 991.98px) {}
