@@ -4,8 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import styles from './roadmap.module.css';
 
-import { AiOutlineHome } from "react-icons/ai"
-import { FaSchool } from "react-icons/fa"
+
 
 export const Roadmap = () => {
     return (
@@ -19,6 +18,7 @@ export const Roadmap = () => {
             <VerticalTimeline
                 lineColor='#5d50c6'
                 className={`${styles.team_head}`}
+                animate={false}
             >
                 <VerticalTimelineElement
                     date="Q4 2022"
