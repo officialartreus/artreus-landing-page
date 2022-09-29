@@ -5,6 +5,7 @@ import About from '../components/About/About';
 import Apply from '../components/Apply/Apply';
 import Team from '../components/Team/Team';
 import Partners from '../components/Partners/Partners';
+import { Roadmap } from '../components/Roadmap/Roadmap';
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
     <Partners />
     <About />
     <Apply />
+    <Roadmap />
     <Team />
   </Fragment>
 

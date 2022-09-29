@@ -1,0 +1,38 @@
+.team_head {
+    font-family: "Titillium Web" !important;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.team_head h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #5d50c6;
+    text-align: center;
+}
+
+.date_classname {
+    color: #000;
+    font-weight: 800 !important;
+    font-size: 1.4rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.team_head ul {
+    padding: 0;
+    margin: 0;
+}
+
+.team_head li {
+    list-style: none;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+@media (max-width: 680px) {
+    .team_head {
+        width: 90%;
+    }
+}
