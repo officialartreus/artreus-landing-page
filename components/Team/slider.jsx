@@ -9,7 +9,6 @@ import cmo from "../images/cmo.jpg";
 import cgo from "../images/cgo.jpg";
 import TeamCard from './TeamCard';
 
-
 const Slider = () => {
 
     return (
@@ -42,7 +41,11 @@ const Slider = () => {
                     </div>
 
                     <div className={`${styles.teams_card} `}>
+
                         <TeamCard src={coo} name={"Mona Paul"} pos={"COO"} description={"Tead, solidity developer"} />
+
+                        <TeamCard src={coo} name={"Mona Paul"} pos={"COO"} description={"Team lead, solidity developer"} />
+
                     </div>
                     <div className={`${styles.teams_card} `}>
                         <TeamCard src={cmo} name={"Michael O`Tega"} pos={"CMO"} description={"Ethsign community advocate, Marketing officer at Altostream"} />
