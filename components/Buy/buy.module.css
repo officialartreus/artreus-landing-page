@@ -1,0 +1,45 @@
+.apply_section {
+  width: 100%;
+  background-image: url("../images/hero_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: fit-content;
+  position: relative;
+}
+
+.apply_section h3 {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ececec;
+  text-align: center;
+}
+
+.apply_section p {
+  font-family: "Titillium Web";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.apply_cta {
+  border: 2px solid white;
+  border-radius: 2rem;
+}
+
+.apply_cta a {
+  font-family: "Titillium Web";
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  .apply_cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

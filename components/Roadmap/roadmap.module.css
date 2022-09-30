@@ -1,6 +1,6 @@
 .team_head {
     font-family: "Titillium Web" !important;
-    width: 60%;
+    /* width: 60%; */
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
 
 .date_classname {
     color: #000;
-    font-weight: 800 !important;
+    font-weight: 600 !important;
     font-size: 1.4rem !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -33,6 +33,6 @@
 
 @media (max-width: 680px) {
     .team_head {
-        width: 90%;
+        /* width: 90%; */
     }
 }

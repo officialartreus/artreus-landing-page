@@ -19,6 +19,7 @@ export const Roadmap = () => {
             <VerticalTimeline
                 lineColor='#5d50c6'
                 className={`${styles.team_head}`}
+            // animate={false}
             >
                 <VerticalTimelineElement
                     date="Q4 2022"
@@ -27,6 +28,7 @@ export const Roadmap = () => {
                     contentStyle={{
                         background: '#5d50c6', color: '#fff'
                     }}
+                    visible={true}
                 >
                     <ul>
                         <li>~ Team formation</li>
@@ -38,6 +40,7 @@ export const Roadmap = () => {
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
+                    visible={true}
                     date="Q1 2023"
                     dateClassName={`${styles.date_classname}`}
                     iconStyle={{ background: '#5d50c6' }}
@@ -54,6 +57,7 @@ export const Roadmap = () => {
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
+                    visible={true}
                     date="Q2 2023"
                     dateClassName={`${styles.date_classname}`}
                     iconStyle={{ background: '#5d50c6' }}
@@ -72,6 +76,7 @@ export const Roadmap = () => {
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
+                    visible={true}
                     date="Q3 2023"
                     dateClassName={`${styles.date_classname}`}
                     iconStyle={{ background: '#5d50c6' }}
