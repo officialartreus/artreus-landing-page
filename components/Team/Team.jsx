@@ -18,10 +18,6 @@ const Team = () => {
                     <Slider />
                 </div>
 
-                <Row>
-                    <Buy />
-                </Row>
-
                 {/* <Row>
                     {
                         PRODUCTS.map((item, i) => (

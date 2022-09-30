@@ -6,6 +6,7 @@ import Apply from '../components/Apply/Apply';
 import Team from '../components/Team/Team';
 import Partners from '../components/Partners/Partners';
 import { Roadmap } from '../components/Roadmap/Roadmap';
+import Buy from '../components/Buy/Buy';
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
     <Apply />
     <Roadmap />
     <Team />
+    <Buy />
   </Fragment>
 
 }
