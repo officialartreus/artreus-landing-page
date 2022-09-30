@@ -5,7 +5,7 @@ import styles from './buy.module.css';
 const Buy = () => {
 
     return (
-        <section className={`${styles.apply_section} p-4`}>
+        <section className={`${styles.apply_section} p-2`}>
             <Container>
                 <Row>
                     <Col lg={6} md={12} className="mx-auto">

@@ -7,7 +7,7 @@ import Buy from "../Buy/Buy";
 
 const Team = () => {
     return (
-        <section className={`${styles.team_section} p-4`}>
+        <section className={`${styles.team_section} p-2`}>
             <Container>
 
                 <div className={`${styles.team_head}`}>
