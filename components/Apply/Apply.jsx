@@ -3,13 +3,13 @@ import Link from 'next/link';
 import styles from './apply.module.css';
 
 const Apply = () => {
-    
+
     return (
         <section className={`${styles.apply_section} p-4`}>
             <Container>
-                
+
                 <Row>
-                    
+
                     <Col lg={6} md={12} className="mx-auto">
                         <div className={`d-flex justify-content-center align-items-center flex-column`}>
                             <div className="my-3">

@@ -5,14 +5,14 @@ import Button from "../Button/Button";
 
 
 const About = () => {
-    
+
     return (
         <section className={`${styles.about_section} p-4`}>
             <Container>
-                
+
 
                 <Row>
-                    
+
                     <Col lg={6} md={12}>
                         <div className={`${styles.textbox}`}>
                             <div className="my-5">
@@ -20,10 +20,10 @@ const About = () => {
                             </div>
                             <div className="my-4">
                                 <p> We provide you with the best platform to buy sell and interact with the best Nft projects out there.
-                                 </p>
+                                </p>
                             </div>
 
-                            <Button btnText={`Vist Marketplace`} styleName={`rev_btn`}/>
+                            <Button btnText={`Vist Marketplace`} styleName={`rev_btn`} />
 
                         </div>
 
@@ -37,7 +37,7 @@ const About = () => {
 
                     <Col lg={6} md={12}>
                         <div className={`${styles.imgbox}`}>
-                            <Image src={require('../images/phone.png')} alt="vision" className={`${styles.img_fluid}`}/>
+                            <Image src={require('../images/phone.png')} alt="vision" className={`${styles.img_fluid}`} />
 
                             <div className={`${styles.volume} p-1 d-flex justify-content-center align-items-center flex-column`}>
                                 <span className="text-white">Over</span>
