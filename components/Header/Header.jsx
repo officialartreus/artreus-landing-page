@@ -11,17 +11,17 @@ import Button from "../Button/Button";
 const Header = () => {
     const NAV_LINK = [
         {
-            path: '#developers',
+            path: 'https://discord.gg/r3c3ethUgs',
             display: 'Developers'
         },
 
         {
-            path: '#ecosystem',
+            path: 'https://discord.gg/r3c3ethUgs',
             display: 'Ecosystem',
         },
 
         {
-            path: '#metaverse',
+            path: 'https://discord.gg/r3c3ethUgs',
             display: 'Metaverse',
         },
 
@@ -49,49 +49,49 @@ const Header = () => {
         classType: "cta_btn"
     }
 
-   const [toggleMenu, setToggleMenu] = useState(false);
+    const [toggleMenu, setToggleMenu] = useState(false);
 
-   function switchMenu() {
+    function switchMenu() {
         setToggleMenu(prevToggle => !prevToggle);
-   }
+    }
 
     return (
         <header className={`${styles.header}`}>
             <Container>
-                <Navbar 
-                  logo={Logo}
-                  links={NAV_LINK}
-                  btnText="Join Waitlist"
-                  styleprops={selector}
-                  hidden={true}
-                  showMenu={switchMenu}
-                  toggle={toggleMenu}
+                <Navbar
+                    logo={Logo}
+                    links={NAV_LINK}
+                    btnText="Join Waitlist"
+                    styleprops={selector}
+                    hidden={true}
+                    showMenu={switchMenu}
+                    toggle={toggleMenu}
                 />
 
                 <Row className={`${styles.hero}`}>
-                  <Col lg={6} md={12}>
-                    <div className={`${styles.hero_text}`}>
-                        <h5>Welcome to Artreus</h5>
-                        <h3>NFT ecosystem for marketplace, games, art and collectibles</h3>
-                    </div> 
+                    <Col lg={6} md={12}>
+                        <div className={`${styles.hero_text}`}>
+                            <h5>Welcome to Artreus</h5>
+                            <h3>NFT ecosystem for marketplace, games, art and collectibles</h3>
+                        </div>
 
-                    <div className={`${styles.hero_btn}`}>
-                       <Button btnText={`Join the Marketplace`} styleName={`cta_btn`}/>
-                    </div>
+                        <div className={`${styles.hero_btn}`}>
+                            <Button btnText={`Join the Marketplace`} styleName={`cta_btn`} />
+                        </div>
 
-                  </Col>
+                    </Col>
 
-                  <Col lg={6} md={12}>
-                    <div className={`${styles.hero_gif} mb-4`}>
-                        <Image src={require('../images/art.gif')}  alt="The Artreus globe"/>
-                    </div>
+                    <Col lg={6} md={12}>
+                        <div className={`${styles.hero_gif} mb-4`}>
+                            <Image width={817} height={1095} className="img" src="http://d5mhdc97neilw.cloudfront.net/art.gif" alt="The Artreus globe" />
+                        </div>
 
-                  </Col>
+                    </Col>
                 </Row>
-                
+
             </Container>
 
-            
+
         </header>
     )
 }

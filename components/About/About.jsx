@@ -37,7 +37,7 @@ const About = () => {
 
                     <Col lg={6} md={12}>
                         <div className={`${styles.imgbox}`}>
-                            <Image src={require('../images/phone.png')} alt="vision" className={`${styles.img_fluid}`} />
+                            <Image width={353} height={673} src="https://d5mhdc97neilw.cloudfront.net/Mockup.png" alt="vision" className={`${styles.img_fluid}`} />
 
                             <div className={`${styles.volume} p-1 d-flex justify-content-center align-items-center flex-column`}>
                                 <span className="text-white">Over</span>

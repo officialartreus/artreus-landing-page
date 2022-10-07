@@ -5,12 +5,7 @@ import styles from './buy.module.css';
 
 const Buy = () => {
 
-    const video = require("../images/nft_bkg.webm");
 
-    const _onClick = (e) => {
-        e.preventDefault()
-        console.log("clicked")
-    }
 
     return (
         <section className={`${styles.apply_section} p-3 pb-4`}>
@@ -23,7 +18,7 @@ const Buy = () => {
 
                                 <div className={`${styles.vid_con} py-2`}>
                                     <video className={`${styles.vid} `} autoPlay loop muted>
-                                        <source src={video} type="video/webm" />
+                                        <source src="http://d5mhdc97neilw.cloudfront.net/NFT_PASS.mp4" type="video/mp4" />
                                     </video>
                                 </div>
 

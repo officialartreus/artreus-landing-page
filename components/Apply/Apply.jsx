@@ -17,7 +17,7 @@ const Apply = () => {
                             </div>
 
                             <div className="my-3">
-                                <p className="text-center text-white">Do you hace an NFT project you want to introduce to a wide range of interested individuals in the crypto space? apply bellow to get your nft art featured on our marketplace</p>
+                                <p className="text-center text-white">Do you have an NFT project you want to introduce to a wide range of interested individuals in the crypto space? apply below to get your nft art featured on our marketplace</p>
                             </div>
 
                             <div className={`${styles.apply_cta} py-2 px-3 my-3`}>
