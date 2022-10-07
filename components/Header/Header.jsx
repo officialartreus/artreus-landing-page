@@ -83,7 +83,7 @@ const Header = () => {
 
                     <Col lg={6} md={12}>
                         <div className={`${styles.hero_gif} mb-4`}>
-                            <Image width={817} height={1095} className="img" src="http://d5mhdc97neilw.cloudfront.net/art.gif" alt="The Artreus globe" />
+                            <Image width={500} height={600} src="http://d5mhdc97neilw.cloudfront.net/art.gif" alt="The Artreus globe" />
                         </div>
 
                     </Col>

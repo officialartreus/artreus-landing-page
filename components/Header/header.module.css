@@ -34,11 +34,6 @@
   color: white;
 }
 
-.hero_gif .img {
-  width: 20px;
-  height: 20px;
-}
-
 /*  X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 991.98px) {
   .header {
