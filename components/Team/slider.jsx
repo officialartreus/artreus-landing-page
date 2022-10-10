@@ -5,7 +5,7 @@ import styles from './team.module.css';
 
 import ceo from "../images/ceo.jpg";
 import coo from "../images/coo.jpg";
-import cmo from "../images/cmo.jpg";
+import cmo from "../images/cgo.jpg";
 import cgo from "../images/cgo.jpg";
 import TeamCard from './TeamCard';
 
