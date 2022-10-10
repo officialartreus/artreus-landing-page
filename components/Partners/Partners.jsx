@@ -13,7 +13,7 @@ const Partners = () => {
                     <Col lg={6} md={12} className="mx-auto">
                         <div className={`d-flex justify-content-around align-items-center`}>
                             <div className="mx-2">
-                                <Image height={20} cover src={require('../images/clover.png')} alt="reef"/>
+                                <Image src={require('../images/clover.png')} alt="reef"/>
                             </div>
                             <div className="mx-2">
                                  <Image src={require('../images/caduceus.png')} alt="caduceus"/>
