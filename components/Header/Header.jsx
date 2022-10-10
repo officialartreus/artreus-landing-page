@@ -18,7 +18,7 @@ const Header = () => {
         {
             path: 'https://discord.gg/r3c3ethUgs',
             display: 'LaunchPad',
-      },
+      }, 
 
         {
             path: 'https://discord.gg/r3c3ethUgs',
