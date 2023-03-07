@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Footer from "../Footer/Footer";
 
 
+
 const Layout = (props) => {
     return <Fragment>
                 <div>
